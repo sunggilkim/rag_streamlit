@@ -12,9 +12,9 @@ from modules.tools import WebSearchTool
 load_dotenv()
 
 # 프로젝트 이름
-logging.langsmith("퍼플렉시티")
+logging.langsmith("Perplexity퍼플렉시티")
 
-st.title("Perplexity 💬")
+st.title("퍼플렉시티 💬")
 st.markdown(
     "LLM에 **웹검색 기능** 을 추가한 [Perplexity](https://www.perplexity.ai/) 클론 입니다. _멀티턴_ 대화를 지원합니다."
 )
